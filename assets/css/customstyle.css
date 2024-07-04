@@ -1,0 +1,68 @@
+.appsLandnew-btn {
+    background: #ff545a;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 60px;
+    text-decoration: none;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    text-transform:capitalize;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition:0.3s ease-in-out;
+    -moz-transition:0.3s ease-in-out;
+    -o-transition:0.3s ease-in-out;
+    transition:0.3s ease-in-out;
+}
+.appsLandnew-btn:hover, .appsLandnew-btn:focus, .appsLandnew-btn:active {
+    text-decoration: none;
+    outline: none;
+}
+.appsLandnew-btn:hover {
+    box-shadow:0 5px 10px rgba(71,71,71,.4);
+    background: #f43032;
+}
+/*appsLand-btn*/
+
+.contact-input-group .contact-input-form{
+    display: inline-block;
+    width: 630px;
+    height: 60px;
+    padding-left:30px;
+    font-size: 16px;
+    color: #a5adb3;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #fff;
+    box-shadow: 0 0px 10px rgba(21,19,19,.1);
+     -webkit-transition:0.3s linear;
+    -moz-transition:0.3s linear;
+    -o-transition:0.3s linear;
+    transition:0.3s linear;
+    margin: 15px 0px;
+}
+/* .contact-input-group:hover .contact-input-form{
+    box-shadow: 0 5px 20px rgba(21,19,19,.4);
+} */
+
+
+.contact-input-group .contact-input-form {width: 100%}
+
+@media screen and (max-width: 480px){
+	.subscription-input-group .subscription-input-form {width: 300px;}
+}/*max-width:480px*/
+
+@media screen and (max-width:350px){
+		.subscription-input-group .subscription-input-form {width: 180px;}
+}/*max-width:350px*/
+
+
+.custom-subheading{
+    margin-top: 25px;text-decoration: underline;
+}
