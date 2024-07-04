@@ -59,6 +59,41 @@
 </head>
 
 <body>
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Get In touch with us</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="contact-input-group">
+								<form action="#">
+									<input type="email" class="contact-input-form"
+										placeholder="Enter your email ">
+										<input type="text" class="contact-input-form"
+										placeholder="Enter your Name">
+										<textarea class="contact-input-form" name="message" rows="10" cols="30" placeholder="Enter your message"></textarea>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="appsLandnew-btn">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
 	<!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -124,8 +159,6 @@
 							<li class="scroll active"><a href="#">About Us</a></li>
 							<li class=""><a href="./our-services.html">Services</a></li>
                             <li class=""><a href="./our-team.html">Our Team</a></li>
-							<!-- <li class="scroll"><a href="#explore">explore</a></li>
-							<li class="scroll"><a href="#contact">contact</a></li>  -->
 							<li class="scroll" data-toggle="modal" data-target="#exampleModal">
 								<a href="#">
 									Get In touch
@@ -471,35 +504,6 @@
 	<!-- statistics end -->
 
 
-
-	<!--subscription strat -->
-	<section id="contact" class="subscription">
-		<div class="container">
-			<div class="subscribe-title text-center">
-				<h2>
-					do you want to add your business listing with us?
-				</h2>
-				<p>
-					Listrace offer you to list your business with us and we very much able to promote your Business.
-				</p>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="subscription-input-group">
-						<form action="#">
-							<input type="email" class="subscription-input-form" placeholder="Enter your email here">
-							<button class="appsLand-btn subscribe-btn" onclick="window.location.href='#'">
-								creat account
-							</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</section><!--/subscription-->
-	<!--subscription end -->
-
 	<!--footer start-->
 	<footer id="footer" class="footer">
 		<div class="container">
@@ -507,19 +511,22 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="navbar-header">
-							<a class="navbar-brand" href="index.html">list<span>race</span></a>
+							<a class="navbar-brand" href="index.html">Avant<span>Noir</span></a>
 						</div><!--/.navbar-header-->
 					</div>
-					<div class="col-sm-9">
-						<ul class="footer-menu-item">
-							<li class="scroll"><a href="#works">how it works</a></li>
-							<li class="scroll"><a href="#explore">explore</a></li>
-							<li class="scroll"><a href="#reviews">review</a></li>
-							<li class="scroll"><a href="#blog">blog</a></li>
-							<li class="scroll"><a href="#contact">contact</a></li>
-							<li class=" scroll"><a href="#contact">my account</a></li>
+					<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+							<li class=""><a href="index.html">home</a></li>
+							<li class="scroll active"><a href="#">About Us</a></li>
+							<li class=""><a href="./our-services.html">Services</a></li>
+                            <li class=""><a href="./our-team.html">Our Team</a></li>
+							<li class="scroll" data-toggle="modal" data-target="#exampleModal">
+								<a href="#">
+									Get In touch
+								</a>
+							</li>
 						</ul><!--/.nav -->
-					</div>
+					</div><!-- /.navbar-collapse -->
 				</div>
 			</div>
 			<div class="hm-footer-copyright">
