@@ -1,5 +1,5 @@
 .appsLandnew-btn {
-    background: #ff545a;
+    background: #67CDCB;
     display: inline-block;
     width: 150px;
     height: 50px;
@@ -25,7 +25,7 @@
 }
 .appsLandnew-btn:hover {
     box-shadow:0 5px 10px rgba(71,71,71,.4);
-    background: #f43032;
+    background: #67CDCB;
 }
 /*appsLand-btn*/
 
